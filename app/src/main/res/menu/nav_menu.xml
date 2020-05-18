@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_newbornbaby"
+            android:icon="@drawable/ic1"
+            android:title="@string/st1" />
+        <item
+            android:id="@+id/nav_children"
+            android:icon="@drawable/ic2"
+            android:title="@string/st2" />
+        <item
+            android:id="@+id/nav_tika"
+            android:icon="@drawable/ic3"
+            android:title="@string/st3" />
+        <item
+            android:id="@+id/nav_helpline"
+            android:icon="@drawable/ic4"
+            android:title="@string/st4" />
+        <item
+            android:id="@+id/nav_hospital"
+            android:icon="@drawable/ic5"
+            android:title="@string/st5" />
+        <item
+            android:id="@+id/nav_nutrition"
+            android:icon="@drawable/ic6"
+            android:title="@string/st6" />
+    </group>
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/about"
+                android:title="@string/about_us" />
+            <item
+                android:id="@+id/nav_location"
+                android:icon="@drawable/location"
+                android:title="@string/meet_us_at" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share"
+                android:title="@string/share_with_friend" />
+        </menu>
+    </item>
+
+</menu>

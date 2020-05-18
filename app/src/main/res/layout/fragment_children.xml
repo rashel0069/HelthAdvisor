@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".Children_fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+            <ImageButton
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:scaleType="fitCenter"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:src ="@drawable/ch1"
+                android:layout_weight="1"
+                android:layout_margin="3dp"
+                tools:ignore="ContentDescription" />
+            <ImageButton
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:scaleType="fitCenter"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:src="@drawable/ch2"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                tools:ignore="ContentDescription" />
+            <ImageButton
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:scaleType="fitCenter"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:src="@drawable/ch3"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+            <ImageButton
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:scaleType="fitCenter"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:src="@drawable/ch4"
+                android:layout_weight="1"
+                android:layout_margin="3dp"
+                tools:ignore="ContentDescription" />
+            <ImageButton
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:scaleType="fitCenter"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:src="@drawable/ch5"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                tools:ignore="ContentDescription" />
+            <ImageButton
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:scaleType="fitCenter"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:src="@drawable/ch6"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
